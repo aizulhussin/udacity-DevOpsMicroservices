@@ -3,9 +3,9 @@ jobs:
   build:
     working_directory: ~/circleci-udacity-devops-microservices
     docker:
-      - image: circleci/python:3.6.4  # primary container for the build job
-     steps:
+      - image: 'circleci/python:3.6.4'
+    steps:
       - checkout
       - run:
-          command: |  # make
+          command: |
             make all
