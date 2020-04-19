@@ -1,0 +1,3 @@
+docker run --rm -i hadolint/hadolint < Dockerfile
+
+docker run -d -p 8080:8080 predict-app:latest
