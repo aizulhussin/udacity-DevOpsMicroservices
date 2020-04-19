@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run -d -p 8080:8080 predict-app:latest
+docker run -p 8080:8080 predict-app:latest
