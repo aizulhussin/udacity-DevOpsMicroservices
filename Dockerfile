@@ -7,11 +7,7 @@ WORKDIR /app
 ## Step 2:
 # Copy source code to working directory
 COPY src /app
-#COPY requirements.txt /app
-#COPY model_data/* /app
-
-RUN ls -l /app
-
+COPY requirements.txt /app
 
 
 ## Step 3:
