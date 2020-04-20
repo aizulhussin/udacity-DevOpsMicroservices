@@ -13,9 +13,7 @@ jobs:
            . venv/bin/activate
            # Install hadolint
            sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64
-           echo 'chmod'
-           sudo chmod +x /bin/hadolint
-           echo 'make install'
+           chmod +x /bin/hadolint
            make install
       - run:
           name: linting
